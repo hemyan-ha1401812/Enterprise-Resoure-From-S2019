@@ -1,0 +1,18 @@
+{
+  "name": "bookdonation",
+  "version": "1.0.0",
+  "description": "To donate books to student who need it",
+  "main": "Repo/BooksRepo.js",
+  "scripts": {
+    "test": "mocha **/*.spec.js"
+  },
+  "author": "Hemyan Al-kuwari",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2"
+  },
+  "dependencies": {
+    "fs-extra": "^7.0.1"
+  }
+}

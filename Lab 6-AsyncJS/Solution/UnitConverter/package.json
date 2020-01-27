@@ -1,0 +1,15 @@
+{
+  "name": "unitconverter",
+  "version": "1.0.0",
+  "description": "unit converter application",
+  "main": "UnitConverter.js",
+  "scripts": {
+    "test": "mocha **/*.spec.js"
+      },
+  "author": "Hemyan",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.1"
+  }
+}

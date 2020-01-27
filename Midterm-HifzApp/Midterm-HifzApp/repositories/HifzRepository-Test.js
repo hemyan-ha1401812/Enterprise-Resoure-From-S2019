@@ -1,0 +1,2 @@
+let hifzRepo = require('./HifzRepository');
+

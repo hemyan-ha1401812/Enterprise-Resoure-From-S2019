@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ContactUs</title>
+
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+
+    <style>
+
+        .container{
+
+            display: flex;
+            flex-wrap: wrap;
+
+
+
+        }
+
+        .qbook{
+            display: inline;
+            color: #135c00;
+            padding-right: 10px;
+
+        }
+
+        label{
+            display: block;
+            color: #585a58;
+
+        }
+            main{
+                display: grid;
+                grid-template-areas:
+                'header header'
+                'l1 l2'
+                't1 t2'
+                'l3 l4'
+                't3 t4'
+                'l5 l5'
+                't5 t5'
+                't5 t5'
+                'b b';
+
+            }
+            .fnl{
+                grid-area: l1;
+            }
+        .fnt{
+            grid-area: t1;
+        }
+
+            .lnl{
+                grid-area: l2;
+            }
+        .lnl{
+            grid-area: t2;
+        }
+.eal{
+    grid-area: l3;
+
+}.eat{
+     grid-area: t3;
+ }.pnl{
+       grid-area: l4;
+
+   }.pnt{
+           grid-area: t4;
+
+       }.ml{
+                   grid-area: l5;
+
+               }.mt {
+                                   grid-area: t5;
+
+                               }
+            input{
+                border-color: green;
+
+
+            }
+.sub{
+
+    color: white;
+    background: #135c00;
+    width: 1fr;
+
+}
+
+        h3 {
+
+            grid-area: 1/1/2/2;
+            color: #585a58;
+
+
+        }
+        .dw{
+            display: inline;
+            color: #585a58;
+        }
+        nav{ display: block;
+
+        }
+
+
+        aside{
+
+            background-color: darkgreen;
+            color: white;
+            padding: 20px;
+            align-content: center;
+            align-self: start;
+            grid-column:1 ;
+            grid-row: 1/2;
+
+
+        }
+        .info {
+
+            display: block;
+            flex-direction: row;
+
+        }
+
+        body{
+
+            background: white;
+
+        }
+main{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+
+    background: azure;
+
+}
+        @media (min-width: 300px) {
+            .container {
+                flex-direction: column;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+<div class="container">
+   <nav> <h1 class="qbook">QBook</h1><h1 class="dw">Donation Website</h1></nav>
+    <aside>
+        <h2>QBook Donation Website</h2>
+        <i class="fas fa-road info" > 273 Qatar University</i>
+        <i class="fas fa-phone info" > (974) 555-5555</i>
+        <i class="fas fa-envelope info" > management@qbook-donation.com</i>
+    </aside>
+<main>
+    <form action="Home.html">
+
+
+    <h3>Email Us</h3>
+    <label class="fnl">First Name</label>
+    <input type="text" class="fnt">
+    <label class="lnl">Last Name</label>
+    <input type="text" class="lnt">
+    <label class="eal">Email Address</label>
+    <input type="email"class="eat">
+    <label class="pnl">Phone Number</label>
+    <input type="tel " class="pnt">
+    <label class="ml">message</label>
+    <input type="text" class="mt">
+    <input type="submit" class="sub">
+
+    </form>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</body>
+</html>

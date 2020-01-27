@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <style>
+
+       /* !*foot{*!
+
+            !*font-size: 40px;*!
+
+        !*}*!
+
+        !*.and{*!
+!*color: green;*!
+
+        !*}*!
+!*.fb{*!
+    !*color: blue;*!
+!*}*!
+!*.tweet{*!
+
+    !*color: aqua;*!
+!*}*!
+   !*.grid-container{*!
+
+       !*display: grid;*!
+
+       !*grid-template-columns: 0.2fr 0.2fr 0.2fr;*!
+     !*!*  align-items: center;*!
+       !*align-content: start;*!
+       !*justify-content: end;*!*!
+       !*background-color: antiquewhite;*!
+       !*grid-gap: 10px;*!
+
+       !*height: 50vh;*!
+
+
+
+   !*}*!
+
+               !*.item1{*!
+
+            !*grid-column: 2/ span 3;*!
+
+            !*!*grid-column: 2/5;*!*!
+
+            !*!*grid-column-start: 2;*!*!
+            !*!*grid-column-end: 5;*!*!
+
+            !*background-color: yellow;*!
+
+        !*}*!
+
+
+        !*.item2{*!
+
+            !*grid-row: 2/ span 3;*!
+
+            !*!*grid-row: 2/5;*!*!
+
+            !*!*grid-row-start: 2;*!*!
+            !*!*grid-row-end: 5;*!*!
+
+            !*background-color: red;*!
+
+        !*}*!
+
+!*.grid-container >* {*!
+
+
+    !*background-color: blueviolet;*!
+
+
+
+!*}*!
+
+
+        !*.grid-contain{*!
+
+            !*display: grid;*!
+            !*grid-template-columns: repeat(3,1fr);*!
+         !*background-color: blue;*!
+            !*grid-gap: 10px;*!
+
+
+        !*}*!
+
+        !*.grid-contain>*{*!
+
+            !*height: 100%;*!
+            !*background: aqua;*!
+
+        !*}*!
+
+
+!*.i1{*!
+    !*grid-column: span 2;*!
+
+!*}*!
+!*.i2{*!
+
+    !*grid-row: span 2 ;*!
+
+!*}*!
+        !*.i5{*!
+            !*grid-column: span 3;*!
+
+
+        !*}*!
+
+
+        div.header ul{
+
+            display: grid;
+            grid-template-columns: repeat(2,minmax(40px,auto));
+            grid-gap: 10px;
+            list-style: none;
+            background-color: blue;
+            color: white;
+        }
+ul>li{
+
+    background: darkred;
+
+}
+.flex-container{
+
+    display: grid;
+    height: 90vh;
+    grid-template-rows:auto 1fr auto ;
+
+}
+.header{
+    hight:100%;
+    background: chartreuse;
+
+
+}
+
+.main{
+
+    background: deeppink;
+
+}
+
+.inner-stuff{
+    background:deepskyblue ;
+    display: inline-grid;
+    grid-template-columns: 0.2fr 0.6fr 0.2fr;
+
+
+}
+        .footer{
+            background: blueviolet;
+
+
+        }
+*/
+
+       .item{
+
+           width: 140px;
+           hight: 140px;
+           background: chartreuse;
+           margin: 5px;
+
+
+
+       }
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+
+
+}
+
+
+        @media(min-width: 600px) {
+
+            .flex-container{
+                flex-direction: row;
+
+
+            }
+
+        }
+
+
+    </style>
+</head>
+<body>
+
+<!--<div class="grid-container">-->
+
+    <!--<div class="item1">item 1</div>-->
+<!--<div class="item2">item 2</div>-->
+<!--<div class="item3">item 3</div>-->
+<!--<div class="item4">item 4</div>-->
+<!--<div class="item5">item 5</div>-->
+<!--<div class="item6">item 6</div>-->
+<!--<div class="item7">item 7</div>-->
+<!--<div class="item8">item 8</div>-->
+<!--<div class="item9">item 9</div>-->
+
+<!--</div>-->
+
+<!--<br>-->
+
+<!--<div class="grid-contain">-->
+
+    <!--<div class="i1">1</div>-->
+    <!--<div class="i2">2</div>-->
+    <!--<div class="i3">3</div>-->
+    <!--<div class="i4">4</div>-->
+    <!--<div class="i5">5</div>-->
+
+
+<!--</div>-->
+
+
+<!--div class="flex-container">
+    <div class="header">
+
+        <ul>
+            <li>Home</li>
+            <li>Contact</li>
+        </ul>
+
+    </div>
+    <div class="inner-stuff">
+        <div class="nav">Nav</div>
+        <div class="aside">Aside</div>
+        <div class="main">Main</div>
+    </div>
+    <div class="footer">Footer</div>
+</div>
+-->
+
+
+<div class="flex-container">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
+
+
+
+</div>
+
+</body>
+
+<foot>
+
+    share it on<br>
+    <i class="fa fa-android and"></i>
+    <i class="fa fa-facebook-official fb"></i>
+    <a href="www.twitter.com"><i class="fa fa-twitter tweet"></i></a>
+
+</foot>
+
+</html>

@@ -1,0 +1,8 @@
+{
+  "name": "HifzApi",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "latest",
+    "fs-extra": "latest"
+  }
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+
+    <style>
+        .conatiner{
+            display: grid;
+        }
+header{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+        body{
+            background-color: cornsilk;
+        }
+
+        .logo{
+            width: 200px;
+            hight:200px;
+           grid-area: 1/1/3/2;
+        }
+
+        foot{
+            display: block;
+            color: white;
+            background-color: #135c00;
+
+        }
+
+        .menu{
+
+            list-style-type: none;
+            grid-area: 2/2/2/4; ;
+            background-color: #135c00;
+            color: white;
+
+        }
+
+
+          .menu li :hover{
+            font-size: larger;
+
+        }
+
+        ul li{
+
+            display: inline;
+            padding: 30px;
+
+        }
+
+        .register {
+
+            list-style-type: none;
+            grid-area: 1/2/2/4;
+            justify-items: right;
+
+        }
+
+        .menu a{
+            color: white;
+            text-decoration: none;
+            padding: 20px;
+
+
+        }
+
+        .books{
+             display: grid;
+               grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+              grid-gap: 20px;
+}
+
+        .book{
+            display: flex;
+            flex-flow: column;
+            padding: 2rem;
+            align-content: center;
+            background-color: aliceblue;
+        }
+        .book > img{
+            display: flex;
+            order: -1;
+        }
+
+
+        @media (min-width:400px ) {
+            .conatiner{
+                flex-flow: row;
+
+            }
+        }
+
+    </style>
+    
+    
+</head>
+<body>
+<div class="conatiner">
+    <header>
+        <img src="img/logo1.png"  class="logo" >
+    <ul class="menu">
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Donate.html">Donate</a></li>
+        <li><a href="ContactUs.html">Contact Us</a></li>
+    </ul>
+<ul class="register">
+    <li><a href="Login.html">Login</a></li>
+    <li><a href="Home.html">Sign Up</a></li>
+</ul>
+
+    </header>
+<main class="books">
+    <article class="book">
+        <h1>Donated by : Abdulahi Hassen</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia,saepe.</p>
+        <button>Claim Book</button>
+        <img src="img/public_Speaker.jpg">
+    </article>
+    <article class="book">
+        <h1>Donated by : Abdelkarim Erradi</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia,saepe.</p>
+        <button>Claim Book</button>
+        <img src="img/deep_work.jpg">
+    </article>
+    <article class="book">
+        <h1>Donated by : Farah AlQawasma</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia,saepe.</p>
+        <button>Claim Book</button>
+        <img src="img/mind.jpg">
+    </article>
+    <article class="book">
+        <h1>Donated by : Heba Daoud</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia,saepe.</p>
+        <button>Claim Book</button>
+        <img src="img/Confessions.jpg">
+    </article>
+    <article class="book">
+        <h1>Donated by : Amina Omar</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia,saepe.</p>
+        <button>Claim Book</button>
+        <img src="img/so_good.jpg">
+    </article>
+    <article class="book">
+        <h1>Donated by : Aisha Ali</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia,saepe.</p>
+        <button>Claim Book</button>
+        <img src="img/cover.jpg">
+    </article>
+    <article class="book">
+        <h1>Donated by : Mohamed Hassen</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia,saepe.</p>
+        <button>Claim Book</button>
+        <img src="img/habits.jpg">
+    </article>
+    <article class="book">
+        <h1>Donated by : Omar Hassen</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia,saepe.</p>
+        <button>Claim Book</button>
+        <img src="img/seven_habits.jpg">
+    </article>
+
+</main>
+
+    <foot>
+
+        Copyright @2019 Qatar University
+
+    </foot>
+
+</div>
+
+</body>
+
+
+
+</html>

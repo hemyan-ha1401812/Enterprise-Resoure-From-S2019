@@ -1,0 +1,16 @@
+{
+  "name": "BankingApp",
+  "version": "0.0.1",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "fs-extra": "^7.0.1",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "mocha": "latest",
+    "chai": "latest",
+    "chai-http": "latest"
+  }
+}
